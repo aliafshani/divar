@@ -1,0 +1,47 @@
+.nav {
+     display: flex;
+     height: 55px;
+     line-height: 55px;
+     box-shadow: 0 4px 2px -1px rgb(37, 37, 37);
+}
+
+.nav-logo {
+     padding-right: 30px;
+}
+
+.nav-logo svg {
+     transform: scale(2);
+}
+
+.nav-divider {
+     margin-inline: 20px;
+     margin-top: 15px;
+     border: 0px;
+     box-shadow: 0px;
+     background-color:var(--white);
+     display: inline-block;
+     height: 1.5rem;
+     width: .5px;
+     overflow: visible;
+}
+.nav-button{
+     padding-inline: 12px;
+     display: flex;
+     align-items: center;
+     border-radius: 5px;
+     margin-top: 9px;
+     height: 40px;
+     background-color: transparent;
+     border: 0px;
+     box-shadow: 0px;
+     color: var(--white);
+     transition: all .3s ease-in;
+}
+
+.nav-button:hover{
+     background-color: #5f5f5f;
+}
+.nav-button-text{
+     margin-right: 7px;
+     margin-bottom: 0px;
+}
