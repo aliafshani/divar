@@ -1,5 +1,5 @@
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
 
 const router = [
   { path: "/", element: <Home /> },
