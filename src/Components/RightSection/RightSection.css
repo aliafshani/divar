@@ -1,8 +1,48 @@
-.rightSection{
-     z-index: 999;
-     width: 350px;
-     height:94dvh;
-     right: 0;
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-     background-color:transparent;
+.right-section-logo {
+     opacity: 1;
+     margin: 10px 20px;
+     position: absolute;
+     left: 0;
+     transition: all linear .4s;
+}
+
+.rightSection:hover .right-section-logo {
+     opacity: 0;
+}
+
+.rightSection:hover .right-section-li-text {
+     display: inline-block;
+}
+
+.right-section-ul {
+     text-overflow: ellipsis;
+     padding: 0%;
+}
+
+.right-section-li {
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     padding: 20px 20px 20px 0;
+     color: rgb(188, 188, 188);
+     text-decoration: none;
+     display: block;
+     transition: all .4s linear;
+}
+
+.right-section-li:hover {
+     color: white;
+}
+
+.right-section-li-icon {
+     font-size: larger;
+     margin-left: 10px;
+}
+
+
+.right-section-li-text {
+     white-space: nowrap;
+     display: none;
+     text-overflow: ellipsis;
+     font-family: laleZar-light !important;
+     transition: all linear .5s;
 }
