@@ -1,5 +1,20 @@
-div{
+.app{
+     padding-right: 120px;
+}
+.rightSection{
+     position: fixed;
+     width: 60px;
+     height:100dvh;
+     z-index: 2002!important;
+     top: 0px;
+     right: 0;
+     box-shadow: rgba(31, 31, 31, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+     background-color:var(--bg-gray);
+     transition: all .4s linear;
+}
+.rightSection:hover{
+     width: 250px;
 }
 .main-page{
-     display: flex;
+     z-index: 1002!important;
 }

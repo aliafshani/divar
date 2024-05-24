@@ -3,7 +3,10 @@
      font-family: laleZar;
      src: url(./../../fonts/vazir/Vazir-Medium.ttf);
 }
-
+@font-face {
+     font-family: laleZar-light;
+     src: url(./../../fonts/vazir/Vazir-Thin.ttf);
+}
 :root{
      --white:#ffffff;
      --bg-gray:#505050;
